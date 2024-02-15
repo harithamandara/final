@@ -4,21 +4,21 @@
         <div class="flex justify-between h-16">
             <div class="flex">
                 <!-- Logo -->
-                <div class="shrink-0 flex items-center">
-                    <a href="{{ route('dashboard') }}">
-                        <x-application-mark class="block h-9 w-auto" />
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="/">
+                        <img src="assets\images\logo4.png" alt="logo" width="60px" height="60px">
                     </a>
-                </div>
+                
 
                 <!-- Navigation Links -->
-                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
-                        {{ __('Dashboard') }}
+                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex" style="margin-right: 20%;">
+                    <x-nav-link href="{{ url('/') }}" :active="request()->routeIs('dashboard')">
+                        {{ __('Home') }}
                     </x-nav-link>
 
 
                 </div>
-                <div>
+                <div >
                     @guest
                         <a href="{{ route('login') }}"
                             class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Log

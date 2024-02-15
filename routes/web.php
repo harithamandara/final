@@ -47,4 +47,9 @@ Route::middleware([
         'user',
         \App\Http\Controllers\UserController::class
     );
+
+    
 });
+
+route::resource('product-category', \App\Http\Controllers\ProductCategoryController::class);
+

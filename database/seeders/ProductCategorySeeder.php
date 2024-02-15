@@ -18,6 +18,18 @@ class ProductCategorySeeder extends Seeder
             "Taxation" => array("Income Tax", "Corporate Tax", "Tax Planning"),
             "Debt Planning" => array("Debt Consolidation", "Repayment Strategies"),
             "Retirement Planning" => array("401(k) Planning", "IRA Planning", "Pension Guidance"),
+            "Taxation" => array("Income Tax", "Corporate Tax", "Tax Planning"),
+            "Debt Planning" => array("Debt Consolidation", "Repayment Strategies"),
+            "Retirement Planning" => array("401(k) Planning", "IRA Planning", "Pension Guidance"),
+            "Taxation" => array("Income Tax", "Corporate Tax", "Tax Planning"),
+            "Debt Planning" => array("Debt Consolidation", "Repayment Strategies"),
+            "Retirement Planning" => array("401(k) Planning", "IRA Planning", "Pension Guidance"),
+            "Taxation" => array("Income Tax", "Corporate Tax", "Tax Planning"),
+            "Debt Planning" => array("Debt Consolidation", "Repayment Strategies"),
+            "Retirement Planning" => array("401(k) Planning", "IRA Planning", "Pension Guidance"),
+            "Taxation" => array("Income Tax", "Corporate Tax", "Tax Planning"),
+            "Debt Planning" => array("Debt Consolidation", "Repayment Strategies"),
+            "Retirement Planning" => array("401(k) Planning", "IRA Planning", "Pension Guidance"),
         );
         
 
