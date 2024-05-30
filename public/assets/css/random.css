@@ -537,7 +537,8 @@ Header Style
   -webkit-transform-origin: 33% 100%;
   transform-origin: 33% 100%;
   top: -10px;
-  z-index: 10;
+  z-index: 100
+  0;
 }
 
 .header-area .main-nav .menu-trigger span:after {

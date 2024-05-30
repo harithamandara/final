@@ -14,9 +14,28 @@ return new class extends Migration
         Schema::create('products', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+            //name
+            $table->string('name');
+            //slug
+            $table->string('slug');
+            //description
+            $table->text('description');
+
+            //price
+            $table->decimal('price');
+            //status tinyint
+            $table->tinyInteger('status')->default(0);
+            //image
+            $table->string('image'); 
+            //qty
+            $table->integer('qty')->default(0);
+
+
         });
     }
 
+    
+    
     /**
      * Reverse the migrations.
      */
