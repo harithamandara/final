@@ -20,16 +20,16 @@ Table of contents
 09. footer
 
 --------------------------------------------- */
-/* 
+/*
 ---------------------------------------------
 font & reset css
---------------------------------------------- 
+---------------------------------------------
 */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900");
-/* 
+/*
 ---------------------------------------------
 reset
---------------------------------------------- 
+---------------------------------------------
 */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
@@ -115,10 +115,10 @@ img {
   overflow: hidden;
 }
 
-/* 
+/*
 ---------------------------------------------
 Global Styles
---------------------------------------------- 
+---------------------------------------------
 */
 html,
 body {
@@ -234,10 +234,10 @@ section {
   font-style: normal;
 }
 
-/* 
+/*
 ---------------------------------------------
 Pre-loader Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .js-preloader {
@@ -336,15 +336,15 @@ Pre-loader Style
 
 
 
-/* 
+/*
 ---------------------------------------------
 Header Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .background-header {
   background-color: #fff !important;
-  height: 70px!important;
+  height: 90px!important;
   position: fixed!important;
   top: 0!important;
   left: 0;
@@ -359,7 +359,7 @@ Header Style
 .header-area {
   background-color: transparent;
   position: absolute;
-  height: 70px;
+  height: 60px;
   top: 30px;
   left: 0;
   right: 0;
@@ -406,7 +406,7 @@ Header Style
 
 .header-area .main-nav .nav {
   display: inline-flex;
-  flex-basis: 70%;
+  flex-basis: 100%;
   justify-content: flex-end;
   vertical-align: middle;
   text-align: right;
@@ -421,15 +421,15 @@ Header Style
 }
 
 .header-area .main-nav .nav li {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
   display: inline-block;
 }
 
 .header-area .main-nav .nav li a {
   display: block;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   text-transform: capitalize;
   color: #2a2a2a;
   -webkit-transition: all 0.3s ease 0s;
@@ -581,7 +581,7 @@ Header Style
 }
 
 .header-area.header-sticky {
-  min-height: 70px;
+  min-height: 50px;
 }
 
 .header-area.header-sticky .nav li a.active {
@@ -725,15 +725,15 @@ Header Style
   }
 }
 
-/* 
+/*
 ---------------------------------------------
 Banner Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .main-banner {
   background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../images/banner-5.png);
-  
+
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -811,10 +811,10 @@ Banner Style
 }
 
 
-/* 
+/*
 ---------------------------------------------
 Categories & Collections Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .categories-collections {
@@ -990,10 +990,10 @@ Categories & Collections Style
 }
 
 
-/* 
+/*
 ---------------------------------------------
 Create NFT Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .create-nft {
@@ -1086,10 +1086,10 @@ Create NFT Style
 
 
 
-/* 
+/*
 ---------------------------------------------
 Currently Market Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .currently-market {
@@ -1226,10 +1226,10 @@ Currently Market Style
 
 
 
-/* 
+/*
 ---------------------------------------------
 Footer Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 /* footer {
@@ -1276,7 +1276,7 @@ ul{
 }
 .footer{
 	background-color: #24262b;
- 
+
     padding: 70px 0;
 }
 .footer-col{
@@ -1353,10 +1353,10 @@ ul{
 
 
 
-/* 
+/*
 ---------------------------------------------
 Page Heading Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .normal-space {
@@ -1413,10 +1413,10 @@ Page Heading Style
 
 
 
-/* 
+/*
 ---------------------------------------------
 Explore Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .featured-explore {
@@ -1717,10 +1717,10 @@ Explore Style
 }
 
 
-/* 
+/*
 ---------------------------------------------
 Details Page Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .item-details-page {
@@ -1951,10 +1951,10 @@ Details Page Style
 }
 
 
-/* 
+/*
 ---------------------------------------------
 Author Page Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 .author-page {
@@ -2090,10 +2090,10 @@ Author Page Style
 }
 
 
-/* 
+/*
 ---------------------------------------------
 Create Page Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 #contact {
@@ -2141,10 +2141,10 @@ Create Page Style
 
 
 
-/* 
+/*
 ---------------------------------------------
 Responsive Style
---------------------------------------------- 
+---------------------------------------------
 */
 
 body {
@@ -2223,5 +2223,5 @@ body {
 }
 
 @media (max-width: 1200px) {
-  
+
 }

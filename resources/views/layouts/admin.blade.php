@@ -18,7 +18,7 @@
         rel="stylesheet">
 
     <!-- Custom styles for this template-->
-    <link href="adminassets/css/sb-admin-2.css" rel="stylesheet">
+    <link href="/adminassets/css/sb-admin-2.css" rel="stylesheet">
 
 </head>
 

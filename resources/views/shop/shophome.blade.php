@@ -16,7 +16,7 @@
         </div>
       </section>
     </div>
-    
+
     <!-- Banner Ends Here -->
 
     <section class="blog-posts grid-system">
@@ -34,7 +34,7 @@
                 </div>
                 <div class="down-content">
                   <span> {{$product->price}}</span>
-                  <a href="{{url('details')}}"><h4>{{$product->name}}</h4></a>
+                  <a><h4>{{$product->name}}</h4></a>
                   <p> {{$product->description}}</p>
                   <div class="post-options">
                     <div class="row">
@@ -49,7 +49,7 @@
                 </div>
               </div>
             </div>
-           
+
 
 
             @endforeach

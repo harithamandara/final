@@ -11,7 +11,7 @@
 
     <title>PerFinAd</title>
 
-    
+
     <!-- Bootstrap core CSS -->
     <link href="js-files/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -47,18 +47,18 @@
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
                     <a href="index.html" class="logo">
-                      <img src="assets/images/logo3.png" alt="" style="width: 220px; height: 80px;">
+                      <img src="assets/images/logo3.png" alt="" style="width: 190px; height: 70px;">
                   </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                        <li><a href="index.html" class="active">Home</a></li>
-                        <li><a href="/about">About Us</a></li>
-                        <li><a href="/service">Services</a></li>
-                        <li><a href="author.html">Our Team</a></li>
-                        <li><a href="{{url('shop')}}">Shop</a></li>
+                        <li><a href="index.html" class="active"><b>Home</b></a></li>
+                        <li><a href="/about"><b>About Us</b></a></li>
+                        <li><a href="/service"><b>Services</b></a></li>
+{{--                        <li><a href="author.html"><b>Our Team</b></a></li>--}}
+                        <li><a href="{{url('shop')}}"><b>Shop</b></a></li>
 
-                        <li><a href="create.html">Contact Us</a></li>
+                        <li><a href="create.html"><b>Contact Us</b></a></li>
                         <li>      @if (Route::has('login'))
                 <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
                     @auth
@@ -67,7 +67,7 @@
                         <!-- <a href="{{ route('login') }}" class="font-semibold text-gray-600 hover:text-gray-900 focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Login</a> -->
 
                         @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 font-semibold text-gray-600 hover:text-gray-900 focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Login/Register</a>
+                            <a href="{{ route('register') }}" class="ml-4 font-semibold text-gray-600 hover:text-gray-900 focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500"><b>Login/Register</b></a>
                         @endif
                     @endauth
                 </div>
@@ -75,7 +75,7 @@
 
 
                         <!-- <li><a href="create.html">Login</a></li> -->
-                    </ul>   
+                    </ul>
                     <a class='menu-trigger'>
                         <span>Menu</span>
                     </a>
@@ -95,7 +95,7 @@
           <div class="header-text">
             <h6>Your Personal Financial Advisory</h6>
             <h2>Maximize your wealth  Minimize Your Stress</h2>
-            <p>Welcome to Perfinad, your personalized financial advisor. 
+            <p>Welcome to Perfinad, your personalized financial advisor.
               Navigate your journey to financial success with expert guidance and tailored solutions. Your financial future starts here.</p>
             <div class="buttons">
               <div class="border-button">
@@ -123,9 +123,9 @@
       </div>
     </div>
   </div>
-  
+
   <!-- ***** Main Banner Area End ***** -->
-  
+
   <div class="categories-collections">
     <div class="container">
       <div class="row">
@@ -213,7 +213,7 @@
               <div class="col-lg-12">
                 <div class="section-heading">
                   <div class="line-dec"></div>
-                  
+
                   <h2>  Perfinad's Success<em> Snapshots:</em> Hottest Market Triumphs!</h2>
                 </div>
               </div>
@@ -269,7 +269,7 @@
                   </div>
                 </div>
               </div>
-            </div> 
+            </div>
           </div>
         </div>
       </div>
@@ -360,7 +360,7 @@
                   <span class="author">
                     <img src="assets/images/logo5.png" alt="" style="max-width: 50px; border-radius: 50%;">
                     <!-- <h6>Liberty Artist<br><a href="#">@libertyart</a></h6> -->
-                    
+
                   </span>
                   <div class="line-dec"></div>
                   <h4>Meet Brayan, the accomplished accounting specialist at Perfinad, leveraging a decade of expertise to drive financial excellence and client success</h4>
@@ -523,7 +523,7 @@
       </div>
     </div>
 
-    
+
   </footer> -->
 <!-- form starts -->
 <center>
@@ -608,7 +608,7 @@
 <!-- form ends -->
 
 <!-- footer start -->
-  
+
   <footer class="footer">
   	 <div class="container">
   	 	<div class="row">
@@ -653,16 +653,16 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-  
+
     <script src="assets/js/isotope.min.js"></script>
     <script src="assets/js/owl-carousel.js"></script>
     <script src="assets/js/app1.js"></script>
-  
+
     <script src="assets/js/tabs.js"></script>
     <script src="assets/js/popup.js"></script>
     <script src="assets/js/custom.js"></script>
 
 
-  
+
     </body>
   </html>

@@ -15,7 +15,7 @@
         </div>
       </section>
     </div>
-    
+
     <!-- Banner Ends Here -->
 
     <section class="blog-posts grid-system">
@@ -84,7 +84,7 @@
 
             <br>
             <br>
-          
+
             <div class="contact-us">
               <div class="sidebar-item contact-form">
                 <div class="sidebar-heading">
@@ -92,7 +92,6 @@
                 </div>
 
                 <div class="content">
-                  <form id="contact" action="" method="post">
                     <div class="row">
                       <div class="col-md-6 col-sm-12">
                         <fieldset>

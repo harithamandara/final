@@ -26,7 +26,7 @@ return new class extends Migration
             //status tinyint
             $table->tinyInteger('status')->default(0);
             //image
-            $table->string('image'); 
+            $table->string('image');
             //qty
             $table->integer('qty')->default(0);
 
@@ -34,8 +34,8 @@ return new class extends Migration
         });
     }
 
-    
-    
+
+
     /**
      * Reverse the migrations.
      */

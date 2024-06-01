@@ -58,7 +58,7 @@ https://templatemo.com/tm-577-liberty-market
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="/" class="active">Home</a></li>
                         <li><a href="/about">About Us</a></li>
                         <li><a href="/service">Services</a></li>
                         <li><a href="author.html">Our Team</a></li>
@@ -76,7 +76,7 @@ https://templatemo.com/tm-577-liberty-market
                     @endauth
                 </div>
             @endif</li>
-                    </ul>   
+                    </ul>
                     <a class='menu-trigger'>
                         <span>Menu</span>
                     </a>
